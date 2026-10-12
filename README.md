@@ -48,7 +48,7 @@ Keep `.env` out of Git using `.gitignore`. Frontend API keys are visible to user
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Tejendra Jadon**
 
 - GitHub: [@tejendrathakur061](https://github.com/tejendrathakur061)
 
