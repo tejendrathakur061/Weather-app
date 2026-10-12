@@ -1,16 +1,59 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Get real-time weather updates for your city.
 
-Currently, two official plugins are available:
+A modern, responsive weather application built with **React**, **Tailwind CSS**, and the **OpenWeatherMap API**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/OpenWeatherMap-EB6E4B?style=for-the-badge&logo=icloud&logoColor=white" alt="OpenWeatherMap" />
+</p>
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🌍 Search weather by city name
+- 🌡️ Real-time temperature and weather conditions
+- 💧 Humidity information
+- 💨 Wind speed details
+- 📱 Responsive design for different screen sizes
+- 🎨 Modern UI styled with Tailwind CSS
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology | Purpose |
+|---|---|
+| ⚛️ React | UI development |
+| 🎨 Tailwind CSS | Styling and responsive design |
+| 📜 JavaScript | Application logic |
+| 🌤️ OpenWeatherMap API | Weather data |
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+cd YOUR-REPOSITORY
+npm install
+npm run dev
+```
+
+Create a `.env` file and configure your OpenWeatherMap API key using the environment variable expected by your project.
+
+## 🔑 API Setup
+
+Get your API key from [OpenWeatherMap](https://openweathermap.org/api).
+
+Keep `.env` out of Git using `.gitignore`. Frontend API keys are visible to users, so apply any available API restrictions.
+
+## 👨‍💻 Author
+
+**Your Name**
+
+- GitHub: [@tejendrathakur061](https://github.com/tejendrathakur061)
+
+---
+
+<p align="center">
+  ⭐ If you like this project, consider giving it a star!
+</p>
